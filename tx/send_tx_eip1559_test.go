@@ -15,9 +15,9 @@ import (
 )
 
 func Test_sendEIP1559Tx(t *testing.T) {
-	var to = "0x56FDB8905f19397FF9AD2535E81e5E9ebF019B38"
+	var to = ""
 	var pk = ""
-	var from = "0xfCd1f0f60dDcA9D32E8f1E9CE5570425c0edFF01"
+	var from = ""
 	client, err := ethclient.Dial("https://opbnb-testnet-rpc.bnbchain.org")
 	if err != nil {
 		log.Fatal(err)
